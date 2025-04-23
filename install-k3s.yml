@@ -1,0 +1,11 @@
+- name: Install k3s Kubernetes (single node)
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Download and install k3s
+      shell: curl -sfL https://get.k3s.io | sh -
+    - name: Wait for k3s service
+      shell: sleep 10
+    - name: Verify k3s is running
+      shell: kubectl get nodes
+
