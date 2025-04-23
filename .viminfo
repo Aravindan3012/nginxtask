@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1745428320,,"wq!"
+|2,0,1745429893,,"wq!"
 :%d
 |2,0,1745427123,,"%d"
 :q!
@@ -67,36 +67,52 @@
 |<"  selector:","    app: nginx","  ports:","    - protocol: TCP","      port: 80","      targetPort: 80","  type: LoadBalancer",""
 
 # File marks:
-'0  24  0  ~/.github/workflows/deploy.yml
-|4,48,24,0,1745428320,"~/.github/workflows/deploy.yml"
-'1  40  0  ~/nginx-deployment.yaml
-|4,49,40,0,1745427132,"~/nginx-deployment.yaml"
-'2  8  0  ~/nginx-config/index.html
-|4,50,8,0,1745426996,"~/nginx-config/index.html"
-'3  1  0  ~/nginx-deployment.yaml
-|4,51,1,0,1745426678,"~/nginx-deployment.yaml"
-'4  33  0  ~/nginx-deployment.yaml
-|4,52,33,0,1745426678,"~/nginx-deployment.yaml"
-'5  1  0  ~/nginx-deployment.yaml
-|4,53,1,0,1745426646,"~/nginx-deployment.yaml"
-'6  33  0  ~/nginx-deployment.yaml
-|4,54,33,0,1745426646,"~/nginx-deployment.yaml"
-'7  1  0  ~/nginx-deployment.yaml
-|4,55,1,0,1745425890,"~/nginx-deployment.yaml"
+'0  2  0  ~/kube/kube-conf
+|4,48,2,0,1745429893,"~/kube/kube-conf"
+'1  24  0  ~/.github/workflows/deploy.yml
+|4,49,24,0,1745428320,"~/.github/workflows/deploy.yml"
+'2  40  0  ~/nginx-deployment.yaml
+|4,50,40,0,1745427132,"~/nginx-deployment.yaml"
+'3  8  0  ~/nginx-config/index.html
+|4,51,8,0,1745426996,"~/nginx-config/index.html"
+'4  1  0  ~/nginx-deployment.yaml
+|4,52,1,0,1745426678,"~/nginx-deployment.yaml"
+'5  33  0  ~/nginx-deployment.yaml
+|4,53,33,0,1745426678,"~/nginx-deployment.yaml"
+'6  1  0  ~/nginx-deployment.yaml
+|4,54,1,0,1745426646,"~/nginx-deployment.yaml"
+'7  33  0  ~/nginx-deployment.yaml
+|4,55,33,0,1745426646,"~/nginx-deployment.yaml"
 '8  1  0  ~/nginx-deployment.yaml
 |4,56,1,0,1745425890,"~/nginx-deployment.yaml"
-'9  33  0  ~/nginx-deployment.yaml
-|4,57,33,0,1745425890,"~/nginx-deployment.yaml"
+'9  1  0  ~/nginx-deployment.yaml
+|4,57,1,0,1745425890,"~/nginx-deployment.yaml"
 
 # Jumplist (newest first):
+-'  2  0  ~/kube/kube-conf
+|4,39,2,0,1745429893,"~/kube/kube-conf"
+-'  1  0  ~/kube/kube-conf
+|4,39,1,0,1745429867,"~/kube/kube-conf"
 -'  24  0  ~/.github/workflows/deploy.yml
 |4,39,24,0,1745428320,"~/.github/workflows/deploy.yml"
+-'  24  0  ~/.github/workflows/deploy.yml
+|4,39,24,0,1745428320,"~/.github/workflows/deploy.yml"
+-'  1  0  ~/.github/workflows/deploy.yml
+|4,39,1,0,1745428305,"~/.github/workflows/deploy.yml"
 -'  1  0  ~/.github/workflows/deploy.yml
 |4,39,1,0,1745428305,"~/.github/workflows/deploy.yml"
 -'  40  0  ~/nginx-deployment.yaml
 |4,39,40,0,1745427132,"~/nginx-deployment.yaml"
 -'  40  0  ~/nginx-deployment.yaml
 |4,39,40,0,1745427132,"~/nginx-deployment.yaml"
+-'  40  0  ~/nginx-deployment.yaml
+|4,39,40,0,1745427132,"~/nginx-deployment.yaml"
+-'  40  0  ~/nginx-deployment.yaml
+|4,39,40,0,1745427132,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745427123,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745427123,"~/nginx-deployment.yaml"
 -'  1  0  ~/nginx-deployment.yaml
 |4,39,1,0,1745427123,"~/nginx-deployment.yaml"
 -'  1  0  ~/nginx-deployment.yaml
@@ -109,6 +125,22 @@
 |4,39,8,0,1745426996,"~/nginx-config/index.html"
 -'  8  0  ~/nginx-config/index.html
 |4,39,8,0,1745426996,"~/nginx-config/index.html"
+-'  8  0  ~/nginx-config/index.html
+|4,39,8,0,1745426996,"~/nginx-config/index.html"
+-'  8  0  ~/nginx-config/index.html
+|4,39,8,0,1745426996,"~/nginx-config/index.html"
+-'  8  0  ~/nginx-config/index.html
+|4,39,8,0,1745426996,"~/nginx-config/index.html"
+-'  8  0  ~/nginx-config/index.html
+|4,39,8,0,1745426996,"~/nginx-config/index.html"
+-'  1  0  ~/nginx-config/index.html
+|4,39,1,0,1745426943,"~/nginx-config/index.html"
+-'  1  0  ~/nginx-config/index.html
+|4,39,1,0,1745426943,"~/nginx-config/index.html"
+-'  1  0  ~/nginx-config/index.html
+|4,39,1,0,1745426943,"~/nginx-config/index.html"
+-'  1  0  ~/nginx-config/index.html
+|4,39,1,0,1745426943,"~/nginx-config/index.html"
 -'  1  0  ~/nginx-config/index.html
 |4,39,1,0,1745426943,"~/nginx-config/index.html"
 -'  1  0  ~/nginx-config/index.html
@@ -126,6 +158,18 @@
 -'  33  0  ~/nginx-deployment.yaml
 |4,39,33,0,1745426678,"~/nginx-deployment.yaml"
 -'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745426678,"~/nginx-deployment.yaml"
+-'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745426678,"~/nginx-deployment.yaml"
+-'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745426678,"~/nginx-deployment.yaml"
+-'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745426678,"~/nginx-deployment.yaml"
+-'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745426646,"~/nginx-deployment.yaml"
+-'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745426646,"~/nginx-deployment.yaml"
+-'  33  0  ~/nginx-deployment.yaml
 |4,39,33,0,1745426646,"~/nginx-deployment.yaml"
 -'  33  0  ~/nginx-deployment.yaml
 |4,39,33,0,1745426646,"~/nginx-deployment.yaml"
@@ -133,6 +177,18 @@
 |4,39,33,0,1745426646,"~/nginx-deployment.yaml"
 -'  33  0  ~/nginx-deployment.yaml
 |4,39,33,0,1745426646,"~/nginx-deployment.yaml"
+-'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745426646,"~/nginx-deployment.yaml"
+-'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745426646,"~/nginx-deployment.yaml"
+-'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745425890,"~/nginx-deployment.yaml"
+-'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745425890,"~/nginx-deployment.yaml"
+-'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745425890,"~/nginx-deployment.yaml"
+-'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745425890,"~/nginx-deployment.yaml"
 -'  33  0  ~/nginx-deployment.yaml
 |4,39,33,0,1745425890,"~/nginx-deployment.yaml"
 -'  33  0  ~/nginx-deployment.yaml
@@ -165,86 +221,30 @@
 |4,39,1,0,1745425874,"~/nginx-deployment.yaml"
 -'  1  0  ~/nginx-deployment.yaml
 |4,39,1,0,1745425874,"~/nginx-deployment.yaml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
--'  11  0  ~/install-k3s.yml
-|4,39,11,0,1745425780,"~/install-k3s.yml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745425874,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745425874,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745425874,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745425874,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745425874,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745425874,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745425874,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745425874,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745425874,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745425874,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745425874,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745425874,"~/nginx-deployment.yaml"
 -'  11  0  ~/install-k3s.yml
 |4,39,11,0,1745425780,"~/install-k3s.yml"
 -'  11  0  ~/install-k3s.yml
@@ -291,6 +291,13 @@
 |4,39,11,0,1745425780,"~/install-k3s.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/kube/kube-conf
+	*	1745429885	0
+	"	2	0
+	^	2	0
+	.	1	30
+	+	1	30
 
 > ~/.github/workflows/deploy.yml
 	*	1745428313	0
