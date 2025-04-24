@@ -39,3 +39,58 @@ cat kube-conf
 vi kube-conf 
 cd
 exit
+cd kube
+ll
+vi kube-conf 
+cd
+git init
+git add .
+git commit -m "second commit"
+git remote add origin https://github.com/https://github.com/Aravindan3012/nginxtask.git
+git remote -v
+git add .
+git add k8s/nginx-deployment.yaml
+git commit -m "Added nginx deployment for k3s"
+git push -u origin main
+git push -u origin master
+git push
+ll
+vi nginx-deployment.yaml
+ll
+git remote add origin https://github.com/Aravindan3012/nginxtask.git
+git add .
+git commit -m "third commit"
+git push -u origin main
+exit
+ll
+cd kube
+ll
+vi kube-conf
+cd
+cd .git
+ll
+cd
+cd .github
+ll
+cd workflows
+ll
+vi deploy.yml
+cd
+cat ~/.kube/config | base64 -w 0
+sudo cat /etc/rancher/k3s/k3s.yaml | base64 -w 0
+ll
+cd .github
+ll
+cd workflows
+ll
+vi deploy.yml
+cd
+vi nginx-deployment.yaml 
+ll
+cat /etc/rancher/k3s/k3s.yaml
+vi /etc/rancher/k3s/k3s.yaml
+vi kubeconfig.yaml
+vi /etc/rancher/k3s/k3s.yaml
+vi kubeconfig.yaml
+ll
+base64 -w 0 kubeconfig.yaml
