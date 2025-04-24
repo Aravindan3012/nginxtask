@@ -17,9 +17,7 @@ jobs:
         run: |
           mkdir -p ~/.kube
           echo "${{ secrets.KUBECONFIG_SECRET }}" | base64 -d > ~/.kube/config
-          kubectl config set-cluster default --server=https://172.31.23.229:6443
-
-          # Optional if self-signed cert:
+          kubectl config set-cluster default --server=https://54.255.57.36:6443
           kubectl config set-cluster default --insecure-skip-tls-verify=true
 
       - name: Apply Kubernetes manifests
