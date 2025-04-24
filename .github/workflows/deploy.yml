@@ -1,24 +1,23 @@
-name: Deploy Nginx to k3s
+name: Deploy to k3s
 
 on:
   push:
     branches:
-      - main
+      - main  # or "master", depending on your branch name
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout the repo
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up Kubeconfig
+      - name: Setup Kubeconfig
         run: |
           mkdir -p ~/.kube
           echo "${{ secrets.KUBECONFIG_DATA }}" | base64 -d > ~/.kube/config
 
-      - name: Deploy to k3s
+      - name: Apply Kubernetes manifests
         run: |
-          kubectl apply -f k8s/
+          kubectl apply -f nginx-deployment.yaml
 
