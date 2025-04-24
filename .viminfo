@@ -15,7 +15,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1745485219,,"wq!"
+|2,0,1745486270,,"wq!"
 :q!
 |2,0,1745485070,,"q!"
 :%d
@@ -105,36 +105,54 @@ $
 |3,1,36,0,1,0,1745485215,":"
 
 # File marks:
-'0  22  67  ~/.github/workflows/deploy.yml
-|4,48,22,67,1745485220,"~/.github/workflows/deploy.yml"
-'1  1  27  ~/kube/kube-conf
-|4,49,1,27,1745485071,"~/kube/kube-conf"
-'2  33  0  ~/nginx-deployment.yaml
-|4,50,33,0,1745482352,"~/nginx-deployment.yaml"
+'0  22  73  ~/.github/workflows/deploy.yml
+|4,48,22,73,1745486271,"~/.github/workflows/deploy.yml"
+'1  25  67  ~/.github/workflows/deploy.yml
+|4,49,25,67,1745485220,"~/.github/workflows/deploy.yml"
+'2  22  67  ~/.github/workflows/deploy.yml
+|4,50,22,67,1745485220,"~/.github/workflows/deploy.yml"
 '3  1  27  ~/kube/kube-conf
-|4,51,1,27,1745481260,"~/kube/kube-conf"
-'4  1  28  ~/kube/kube-conf
-|4,52,1,28,1745481112,"~/kube/kube-conf"
-'5  1  28  ~/kube/kube-conf
-|4,53,1,28,1745481112,"~/kube/kube-conf"
-'6  20  0  ~/kubeconfig.yaml
-|4,54,20,0,1745481034,"~/kubeconfig.yaml"
-'7  2  0  ~/.github/workflows/deploy.yml
-|4,55,2,0,1745479098,"~/.github/workflows/deploy.yml"
-'8  2  0  ~/.github/workflows/deploy.yml
-|4,56,2,0,1745479098,"~/.github/workflows/deploy.yml"
-'9  2  42  ~/.github/workflows/deploy.yml
-|4,57,2,42,1745478742,"~/.github/workflows/deploy.yml"
+|4,51,1,27,1745485071,"~/kube/kube-conf"
+'4  33  0  ~/nginx-deployment.yaml
+|4,52,33,0,1745482352,"~/nginx-deployment.yaml"
+'5  1  27  ~/kube/kube-conf
+|4,53,1,27,1745481260,"~/kube/kube-conf"
+'6  1  28  ~/kube/kube-conf
+|4,54,1,28,1745481112,"~/kube/kube-conf"
+'7  1  28  ~/kube/kube-conf
+|4,55,1,28,1745481112,"~/kube/kube-conf"
+'8  20  0  ~/kubeconfig.yaml
+|4,56,20,0,1745481034,"~/kubeconfig.yaml"
+'9  2  0  ~/.github/workflows/deploy.yml
+|4,57,2,0,1745479098,"~/.github/workflows/deploy.yml"
 
 # Jumplist (newest first):
+-'  22  73  ~/.github/workflows/deploy.yml
+|4,39,22,73,1745486271,"~/.github/workflows/deploy.yml"
+-'  25  67  ~/.github/workflows/deploy.yml
+|4,39,25,67,1745486064,"~/.github/workflows/deploy.yml"
 -'  22  67  ~/.github/workflows/deploy.yml
 |4,39,22,67,1745485220,"~/.github/workflows/deploy.yml"
+-'  2  0  ~/.github/workflows/deploy.yml
+|4,39,2,0,1745485132,"~/.github/workflows/deploy.yml"
 -'  2  0  ~/.github/workflows/deploy.yml
 |4,39,2,0,1745485132,"~/.github/workflows/deploy.yml"
 -'  1  27  ~/kube/kube-conf
 |4,39,1,27,1745485071,"~/kube/kube-conf"
 -'  1  27  ~/kube/kube-conf
 |4,39,1,27,1745485071,"~/kube/kube-conf"
+-'  1  27  ~/kube/kube-conf
+|4,39,1,27,1745485071,"~/kube/kube-conf"
+-'  1  27  ~/kube/kube-conf
+|4,39,1,27,1745485071,"~/kube/kube-conf"
+-'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745482352,"~/nginx-deployment.yaml"
+-'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745482352,"~/nginx-deployment.yaml"
+-'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745482352,"~/nginx-deployment.yaml"
+-'  33  0  ~/nginx-deployment.yaml
+|4,39,33,0,1745482352,"~/nginx-deployment.yaml"
 -'  33  0  ~/nginx-deployment.yaml
 |4,39,33,0,1745482352,"~/nginx-deployment.yaml"
 -'  33  0  ~/nginx-deployment.yaml
@@ -151,6 +169,14 @@ $
 |4,39,1,0,1745482332,"~/nginx-deployment.yaml"
 -'  1  0  ~/nginx-deployment.yaml
 |4,39,1,0,1745482332,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745482332,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745482332,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745482332,"~/nginx-deployment.yaml"
+-'  1  0  ~/nginx-deployment.yaml
+|4,39,1,0,1745482332,"~/nginx-deployment.yaml"
 -'  1  27  ~/kube/kube-conf
 |4,39,1,27,1745481260,"~/kube/kube-conf"
 -'  1  27  ~/kube/kube-conf
@@ -159,6 +185,22 @@ $
 |4,39,1,27,1745481260,"~/kube/kube-conf"
 -'  1  27  ~/kube/kube-conf
 |4,39,1,27,1745481260,"~/kube/kube-conf"
+-'  1  27  ~/kube/kube-conf
+|4,39,1,27,1745481260,"~/kube/kube-conf"
+-'  1  27  ~/kube/kube-conf
+|4,39,1,27,1745481260,"~/kube/kube-conf"
+-'  1  27  ~/kube/kube-conf
+|4,39,1,27,1745481260,"~/kube/kube-conf"
+-'  1  27  ~/kube/kube-conf
+|4,39,1,27,1745481260,"~/kube/kube-conf"
+-'  1  28  ~/kube/kube-conf
+|4,39,1,28,1745481112,"~/kube/kube-conf"
+-'  1  28  ~/kube/kube-conf
+|4,39,1,28,1745481112,"~/kube/kube-conf"
+-'  1  28  ~/kube/kube-conf
+|4,39,1,28,1745481112,"~/kube/kube-conf"
+-'  1  28  ~/kube/kube-conf
+|4,39,1,28,1745481112,"~/kube/kube-conf"
 -'  1  28  ~/kube/kube-conf
 |4,39,1,28,1745481112,"~/kube/kube-conf"
 -'  1  28  ~/kube/kube-conf
@@ -231,115 +273,74 @@ $
 |4,39,20,0,1745481034,"~/kubeconfig.yaml"
 -'  20  0  ~/kubeconfig.yaml
 |4,39,20,0,1745481034,"~/kubeconfig.yaml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  0  ~/.github/workflows/deploy.yml
-|4,39,2,0,1745479098,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
--'  2  42  ~/.github/workflows/deploy.yml
-|4,39,2,42,1745478742,"~/.github/workflows/deploy.yml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
+-'  20  0  ~/kubeconfig.yaml
+|4,39,20,0,1745481034,"~/kubeconfig.yaml"
 
 # History of marks within files (newest to oldest):
 
 > ~/.github/workflows/deploy.yml
-	*	1745485215	0
-	"	22	67
-	^	22	69
-	.	22	68
+	*	1745486266	0
+	"	22	73
+	^	22	74
+	.	22	74
 	+	1	19
 	+	8	358
 	+	8	127
 	+	2	0
-	+	22	68
+	+	25	68
+	+	22	74
 
 > ~/kube/kube-conf
 	*	1745485063	0

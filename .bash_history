@@ -94,3 +94,41 @@ vi /etc/rancher/k3s/k3s.yaml
 vi kubeconfig.yaml
 ll
 base64 -w 0 kubeconfig.yaml
+kubectl apply -f k8s/
+ll
+vi nginx-deployment.yaml 
+cd nginx-config/
+ll
+vi index.html 
+cd
+vi nginx-deployment.yaml 
+cd k3s-setup/
+ll
+cd
+vi kubeconfig.yaml 
+cd .kube/
+ll
+vi config 
+cd
+cd nginx-config/
+ll
+vi index.html 
+ll
+cd
+ll
+cd github
+cd .github
+ll
+cd workflows/
+l
+vi deploy.yml 
+cd
+mkdir k8s
+cd k8s
+vi nginx-deployment.yaml k8s/
+mv nginx-deployment.yaml k8s/
+cd
+mv nginx-deployment.yaml k8s/
+git add k8s/nginx-deployment.yaml
+git commit -m "Moved YAML to k8s folder"
+git push
