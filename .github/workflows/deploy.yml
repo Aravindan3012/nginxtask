@@ -13,21 +13,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install kubectl
+      - name: Install kubectl only
         run: |
-          curl -LO "https://dl.k8s.io/release/stable.txt/bin/linux/amd64/kubectl"
+          curl -LO https://dl.k8s.io/release/$(curl -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl
           chmod +x kubectl
-          sudo mv kubectl /usr/local/bin/
-
+          ./kubectl version --client
+  
       - name: Set up kubeconfig
         run: |
           mkdir -p ~/.kube
           echo "${{ secrets.KUBECONFIG_SECRET }}" | base64 -d > ~/.kube/config
-
-      - name: Verify Cluster Access
-        run: kubectl get nodes
+          kubectl config set-cluster default --server=https://3.0.102.234:6443
+          kubectl config set-cluster default --insecure-skip-tls-verify=true
 
       - name: Apply Kubernetes manifests
         run: kubectl apply -f nginx-deployment.yaml --validate=false
-
-
