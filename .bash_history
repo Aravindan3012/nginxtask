@@ -132,3 +132,93 @@ mv nginx-deployment.yaml k8s/
 git add k8s/nginx-deployment.yaml
 git commit -m "Moved YAML to k8s folder"
 git push
+ll
+cd .github
+ll
+cd workflows
+vi deploy.yml 
+cd
+kubectl get svc
+hostname -I
+kubectl get svc
+cd .github
+cd workflows/
+vi deploy.yml 
+cd
+git remote add origin https://github.com/Aravindan3012/nginxtask.git 
+git add .
+git commit -m "next commit"
+git push -u origin main
+git add .
+git push -u origin main
+git pull origin main --rebase
+git rebase --continue
+git push origin main
+curl ifconfig.me
+cp /etc/rancher/k3s/k3s.yaml ~/.kube/config
+vi ~/.kube/config
+cat ~/.kube/config | base64
+ll
+cd .github
+cd workflows/
+vi deploy.yml 
+cd
+git add .
+git commit -m "fifth commit"
+git push -u origin main
+clear
+ll
+cd .github/
+cd
+ll
+cd .github
+cd workflows/
+vi deploy.yml 
+cd
+git add .
+git commit -m "Fix kubeconfig with correct IP"
+git push origin main
+vi ~/.kube/config
+ll
+vi ~/.kube/config
+cat .github/workflows/deploy.yml
+curl ifconfig.me
+vi kubeconfig.yaml
+base64 -w 0 kubeconfig.yaml
+cat nginx-deployment.yaml
+git add .
+git commit -m "Trigger deploy"
+git push origin main
+curl -k https://54.255.57.36:6443
+curl -k https://54.255.57.36:6443/version
+--tls-san 54.255.57.36
+curl -k https://54.255.57.36:6443/version
+ll
+cd kube
+ll
+vi kube-conf
+cd
+cd github
+cd .github
+ll
+cd workflows/
+ll
+vi deploy.yml 
+cd
+curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="--tls-san 54.255.57.36" sh -
+git remote add origin https://github.com/Aravindan3012/nginxtask.git
+git add .
+git commit -m "fourth commit"
+git push -u origin main
+ll
+cd .github
+ll
+cd workflows
+ll
+vi deploy.yml 
+cd
+git remote add origin https://github.com/Aravindan3012/nginxtask.git
+git add .
+git commit -m "fifth commit"
+git push -u origin main
+ll
